@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="extraction_shooter"
+version="1.0.0"
+displayName="Extraction Shooter"
+logoFile="extraction_shooter.png"
+credits=""
+authors=""
+description='''
+一个搜打撤玩法的 Forge Mod，支持背包容量限制、物品占格旋转、搜刮流程、品质系统、死亡掉落转入容器、固定/临时刷新点、撤离规则与多货币消耗等完整玩法。
+'''
+
+[[dependencies.extraction_shooter]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.extraction_shooter]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.1]"
+    ordering="NONE"
+    side="BOTH"
